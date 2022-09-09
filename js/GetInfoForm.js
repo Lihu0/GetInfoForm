@@ -20,7 +20,7 @@ const GetInfoForm = () => {
     } catch {
 
     }
-    let argsobj = str_to_obj(args);
+    const argsobj = str_to_obj(args);
     return argsobj;
 }
 
